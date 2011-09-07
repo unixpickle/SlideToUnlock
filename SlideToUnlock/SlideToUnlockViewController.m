@@ -20,13 +20,13 @@
 
 #pragma mark - View lifecycle
 
-/*
 // Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
+	ANSlider * slider = [[ANSlider alloc] initWithFrame:CGRectMake(0, self.view.frame.size.height - 95, 320, 95)];
+	[slider startAnimating:self];
+	[self.view addSubview:[slider autorelease]];
 }
-*/
 
 - (void)viewDidUnload
 {

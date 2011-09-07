@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "ANSlider.h"
 
 @interface SlideToUnlockViewController : UIViewController
 

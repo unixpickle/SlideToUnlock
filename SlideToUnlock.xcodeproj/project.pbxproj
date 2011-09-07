@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA3C9A0014181A2000AE37FA /* EasingAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C99FD14181A2000AE37FA /* EasingAnimation.m */; };
+		FA3C9A0114181A2000AE37FA /* EaseOutSmoothAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = FA3C99FF14181A2000AE37FA /* EaseOutSmoothAnimation.m */; };
 		FA47071B1417E33200773EFE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA47071A1417E33200773EFE /* UIKit.framework */; };
 		FA47071D1417E33200773EFE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA47071C1417E33200773EFE /* Foundation.framework */; };
 		FA47071F1417E33200773EFE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FA47071E1417E33200773EFE /* CoreGraphics.framework */; };
@@ -16,23 +18,60 @@
 		FA47072E1417E33200773EFE /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA47072C1417E33200773EFE /* MainWindow.xib */; };
 		FA4707311417E33200773EFE /* SlideToUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4707301417E33200773EFE /* SlideToUnlockViewController.m */; };
 		FA4707341417E33200773EFE /* SlideToUnlockViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = FA4707321417E33200773EFE /* SlideToUnlockViewController.xib */; };
+		FA47073B1417E34600773EFE /* bottom.png in Resources */ = {isa = PBXBuildFile; fileRef = FA47073A1417E34600773EFE /* bottom.png */; };
+		FA4707401417E39D00773EFE /* ANSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47073F1417E39D00773EFE /* ANSlider.m */; };
+		FA4707731417E49A00773EFE /* ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4707611417E49A00773EFE /* ANImageBitmapRep.m */; };
+		FA4707741417E49A00773EFE /* BitmapContextRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4707631417E49A00773EFE /* BitmapContextRep.m */; };
+		FA4707751417E49A00773EFE /* CGContextCreator.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4707661417E49A00773EFE /* CGContextCreator.m */; };
+		FA4707761417E49A00773EFE /* CGImageContainer.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4707681417E49A00773EFE /* CGImageContainer.m */; };
+		FA4707771417E49A00773EFE /* CroppableBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47076B1417E49A00773EFE /* CroppableBitmapRep.m */; };
+		FA4707781417E49A00773EFE /* RotatableBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47076D1417E49A00773EFE /* RotatableBitmapRep.m */; };
+		FA4707791417E49A00773EFE /* ScalableBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA47076F1417E49A00773EFE /* ScalableBitmapRep.m */; };
+		FA47077B1417E49A00773EFE /* UIImage+ANImageBitmapRep.m in Sources */ = {isa = PBXBuildFile; fileRef = FA4707721417E49A00773EFE /* UIImage+ANImageBitmapRep.m */; };
+		FA47077D1417E65800773EFE /* textmask.png in Resources */ = {isa = PBXBuildFile; fileRef = FA47077C1417E65800773EFE /* textmask.png */; };
+		FA47077F1417E9AA00773EFE /* default_slider.png in Resources */ = {isa = PBXBuildFile; fileRef = FA47077E1417E9AA00773EFE /* default_slider.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA3C99FC14181A2000AE37FA /* EasingAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EasingAnimation.h; sourceTree = "<group>"; };
+		FA3C99FD14181A2000AE37FA /* EasingAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EasingAnimation.m; sourceTree = "<group>"; };
+		FA3C99FE14181A2000AE37FA /* EaseOutSmoothAnimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EaseOutSmoothAnimation.h; sourceTree = "<group>"; };
+		FA3C99FF14181A2000AE37FA /* EaseOutSmoothAnimation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EaseOutSmoothAnimation.m; sourceTree = "<group>"; };
 		FA4707161417E33200773EFE /* SlideToUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlideToUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA47071A1417E33200773EFE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		FA47071C1417E33200773EFE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FA47071E1417E33200773EFE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		FA4707221417E33200773EFE /* SlideToUnlock-Info.plist */ = {isa = PBXFileReference; path = "SlideToUnlock-Info.plist"; sourceTree = "<group>"; };
+		FA4707221417E33200773EFE /* SlideToUnlock-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SlideToUnlock-Info.plist"; sourceTree = "<group>"; };
 		FA4707241417E33200773EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		FA4707261417E33200773EFE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FA4707281417E33200773EFE /* SlideToUnlock-Prefix.pch */ = {isa = PBXFileReference; path = "SlideToUnlock-Prefix.pch"; sourceTree = "<group>"; };
-		FA4707291417E33200773EFE /* SlideToUnlockAppDelegate.h */ = {isa = PBXFileReference; path = SlideToUnlockAppDelegate.h; sourceTree = "<group>"; };
+		FA4707281417E33200773EFE /* SlideToUnlock-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SlideToUnlock-Prefix.pch"; sourceTree = "<group>"; };
+		FA4707291417E33200773EFE /* SlideToUnlockAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideToUnlockAppDelegate.h; sourceTree = "<group>"; };
 		FA47072A1417E33200773EFE /* SlideToUnlockAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideToUnlockAppDelegate.m; sourceTree = "<group>"; };
 		FA47072D1417E33200773EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		FA47072F1417E33200773EFE /* SlideToUnlockViewController.h */ = {isa = PBXFileReference; path = SlideToUnlockViewController.h; sourceTree = "<group>"; };
+		FA47072F1417E33200773EFE /* SlideToUnlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SlideToUnlockViewController.h; sourceTree = "<group>"; };
 		FA4707301417E33200773EFE /* SlideToUnlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SlideToUnlockViewController.m; sourceTree = "<group>"; };
 		FA4707331417E33200773EFE /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SlideToUnlockViewController.xib; sourceTree = "<group>"; };
+		FA47073A1417E34600773EFE /* bottom.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bottom.png; sourceTree = "<group>"; };
+		FA47073E1417E39D00773EFE /* ANSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANSlider.h; sourceTree = "<group>"; };
+		FA47073F1417E39D00773EFE /* ANSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANSlider.m; sourceTree = "<group>"; };
+		FA4707601417E49A00773EFE /* ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ANImageBitmapRep.h; sourceTree = "<group>"; };
+		FA4707611417E49A00773EFE /* ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ANImageBitmapRep.m; sourceTree = "<group>"; };
+		FA4707621417E49A00773EFE /* BitmapContextRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BitmapContextRep.h; sourceTree = "<group>"; };
+		FA4707631417E49A00773EFE /* BitmapContextRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BitmapContextRep.m; sourceTree = "<group>"; };
+		FA4707651417E49A00773EFE /* CGContextCreator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGContextCreator.h; sourceTree = "<group>"; };
+		FA4707661417E49A00773EFE /* CGContextCreator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGContextCreator.m; sourceTree = "<group>"; };
+		FA4707671417E49A00773EFE /* CGImageContainer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGImageContainer.h; sourceTree = "<group>"; };
+		FA4707681417E49A00773EFE /* CGImageContainer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGImageContainer.m; sourceTree = "<group>"; };
+		FA47076A1417E49A00773EFE /* CroppableBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CroppableBitmapRep.h; sourceTree = "<group>"; };
+		FA47076B1417E49A00773EFE /* CroppableBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CroppableBitmapRep.m; sourceTree = "<group>"; };
+		FA47076C1417E49A00773EFE /* RotatableBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RotatableBitmapRep.h; sourceTree = "<group>"; };
+		FA47076D1417E49A00773EFE /* RotatableBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RotatableBitmapRep.m; sourceTree = "<group>"; };
+		FA47076E1417E49A00773EFE /* ScalableBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScalableBitmapRep.h; sourceTree = "<group>"; };
+		FA47076F1417E49A00773EFE /* ScalableBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ScalableBitmapRep.m; sourceTree = "<group>"; };
+		FA4707711417E49A00773EFE /* UIImage+ANImageBitmapRep.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+ANImageBitmapRep.h"; sourceTree = "<group>"; };
+		FA4707721417E49A00773EFE /* UIImage+ANImageBitmapRep.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+ANImageBitmapRep.m"; sourceTree = "<group>"; };
+		FA47077C1417E65800773EFE /* textmask.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = textmask.png; sourceTree = "<group>"; };
+		FA47077E1417E9AA00773EFE /* default_slider.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default_slider.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,9 +88,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FA3C9A0314181A2300AE37FA /* Easing */ = {
+			isa = PBXGroup;
+			children = (
+				FA3C99FC14181A2000AE37FA /* EasingAnimation.h */,
+				FA3C99FD14181A2000AE37FA /* EasingAnimation.m */,
+				FA3C99FE14181A2000AE37FA /* EaseOutSmoothAnimation.h */,
+				FA3C99FF14181A2000AE37FA /* EaseOutSmoothAnimation.m */,
+			);
+			name = Easing;
+			sourceTree = "<group>";
+		};
 		FA47070B1417E33100773EFE = {
 			isa = PBXGroup;
 			children = (
+				FA3C9A0314181A2300AE37FA /* Easing */,
+				FA47075F1417E49A00773EFE /* ANImageBitmapRep */,
 				FA4707201417E33200773EFE /* SlideToUnlock */,
 				FA4707191417E33200773EFE /* Frameworks */,
 				FA4707171417E33200773EFE /* Products */,
@@ -85,6 +137,8 @@
 				FA47072F1417E33200773EFE /* SlideToUnlockViewController.h */,
 				FA4707301417E33200773EFE /* SlideToUnlockViewController.m */,
 				FA4707321417E33200773EFE /* SlideToUnlockViewController.xib */,
+				FA47073E1417E39D00773EFE /* ANSlider.h */,
+				FA47073F1417E39D00773EFE /* ANSlider.m */,
 				FA4707211417E33200773EFE /* Supporting Files */,
 			);
 			path = SlideToUnlock;
@@ -93,12 +147,54 @@
 		FA4707211417E33200773EFE /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				FA47077C1417E65800773EFE /* textmask.png */,
+				FA47077E1417E9AA00773EFE /* default_slider.png */,
+				FA47073A1417E34600773EFE /* bottom.png */,
 				FA4707221417E33200773EFE /* SlideToUnlock-Info.plist */,
 				FA4707231417E33200773EFE /* InfoPlist.strings */,
 				FA4707261417E33200773EFE /* main.m */,
 				FA4707281417E33200773EFE /* SlideToUnlock-Prefix.pch */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		FA47075F1417E49A00773EFE /* ANImageBitmapRep */ = {
+			isa = PBXGroup;
+			children = (
+				FA4707641417E49A00773EFE /* CoreGraphics */,
+				FA4707691417E49A00773EFE /* Intermediate Subclasses */,
+				FA4707601417E49A00773EFE /* ANImageBitmapRep.h */,
+				FA4707611417E49A00773EFE /* ANImageBitmapRep.m */,
+				FA4707621417E49A00773EFE /* BitmapContextRep.h */,
+				FA4707631417E49A00773EFE /* BitmapContextRep.m */,
+				FA4707711417E49A00773EFE /* UIImage+ANImageBitmapRep.h */,
+				FA4707721417E49A00773EFE /* UIImage+ANImageBitmapRep.m */,
+			);
+			path = ANImageBitmapRep;
+			sourceTree = "<group>";
+		};
+		FA4707641417E49A00773EFE /* CoreGraphics */ = {
+			isa = PBXGroup;
+			children = (
+				FA4707651417E49A00773EFE /* CGContextCreator.h */,
+				FA4707661417E49A00773EFE /* CGContextCreator.m */,
+				FA4707671417E49A00773EFE /* CGImageContainer.h */,
+				FA4707681417E49A00773EFE /* CGImageContainer.m */,
+			);
+			path = CoreGraphics;
+			sourceTree = "<group>";
+		};
+		FA4707691417E49A00773EFE /* Intermediate Subclasses */ = {
+			isa = PBXGroup;
+			children = (
+				FA47076A1417E49A00773EFE /* CroppableBitmapRep.h */,
+				FA47076B1417E49A00773EFE /* CroppableBitmapRep.m */,
+				FA47076C1417E49A00773EFE /* RotatableBitmapRep.h */,
+				FA47076D1417E49A00773EFE /* RotatableBitmapRep.m */,
+				FA47076E1417E49A00773EFE /* ScalableBitmapRep.h */,
+				FA47076F1417E49A00773EFE /* ScalableBitmapRep.m */,
+			);
+			path = "Intermediate Subclasses";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +247,9 @@
 				FA4707251417E33200773EFE /* InfoPlist.strings in Resources */,
 				FA47072E1417E33200773EFE /* MainWindow.xib in Resources */,
 				FA4707341417E33200773EFE /* SlideToUnlockViewController.xib in Resources */,
+				FA47073B1417E34600773EFE /* bottom.png in Resources */,
+				FA47077D1417E65800773EFE /* textmask.png in Resources */,
+				FA47077F1417E9AA00773EFE /* default_slider.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +263,17 @@
 				FA4707271417E33200773EFE /* main.m in Sources */,
 				FA47072B1417E33200773EFE /* SlideToUnlockAppDelegate.m in Sources */,
 				FA4707311417E33200773EFE /* SlideToUnlockViewController.m in Sources */,
+				FA4707401417E39D00773EFE /* ANSlider.m in Sources */,
+				FA4707731417E49A00773EFE /* ANImageBitmapRep.m in Sources */,
+				FA4707741417E49A00773EFE /* BitmapContextRep.m in Sources */,
+				FA4707751417E49A00773EFE /* CGContextCreator.m in Sources */,
+				FA4707761417E49A00773EFE /* CGImageContainer.m in Sources */,
+				FA4707771417E49A00773EFE /* CroppableBitmapRep.m in Sources */,
+				FA4707781417E49A00773EFE /* RotatableBitmapRep.m in Sources */,
+				FA4707791417E49A00773EFE /* ScalableBitmapRep.m in Sources */,
+				FA47077B1417E49A00773EFE /* UIImage+ANImageBitmapRep.m in Sources */,
+				FA3C9A0014181A2000AE37FA /* EasingAnimation.m in Sources */,
+				FA3C9A0114181A2000AE37FA /* EaseOutSmoothAnimation.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -281,6 +391,7 @@
 				FA4707391417E33200773EFE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
